@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="DigiGuest Pro" />
   <meta name="description" content="DigiGuest Pro — Sistem Buku Tamu Digital Modern dengan Tanda Tangan Digital & Progressive Web App" />
-  <title>DigiGuest Pro — Buku Tamu Digital</title>
+  <title>DIGITAMU - Buku Tamu Digital</title>
 
   <!-- Google Fonts: Plus Jakarta Sans & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -162,12 +162,12 @@
           </div>
           <div class="min-w-0">
             <div class="flex items-center gap-2">
-              <h1 class="font-display font-bold text-slate-900 text-base sm:text-lg tracking-tight truncate">DigiGuest Pro</h1>
+              <h1 class="font-display font-bold text-slate-900 text-base sm:text-lg tracking-tight truncate">DIGITAMU</h1>
               <span id="preview-badge" class="hidden px-2 py-0.5 text-[11px] font-semibold rounded-full bg-amber-100 text-amber-800 border border-amber-200">
                 Mode Preview
               </span>
             </div>
-            <p id="header-institution-name" class="text-xs text-slate-500 truncate">PT Nusantara Digital Solusi</p>
+            <p id="header-institution-name" class="text-xs text-slate-500 truncate">Buku Tamu Digital Sekolah</p>
           </div>
         </div>
 
@@ -302,7 +302,7 @@
             <div class="bg-white rounded-2xl p-5 sm:p-7 border border-slate-200/80 shadow-xl shadow-slate-200/60">
               <div class="flex items-center justify-between pb-4 mb-5 border-b border-slate-100">
                 <div>
-                  <h2 class="font-display text-lg sm:text-xl font-bold text-slate-900">Formulir Kunjungan Tamu</h2>
+                  <h2 class="font-display text-lg sm:text-xl font-bold text-slate-900">Formulir Tamu</h2>
                   <p class="text-xs text-slate-500 mt-0.5">Kolom bertanda <span class="text-rose-500 font-semibold">*</span> wajib diisi dengan benar</p>
                 </div>
                 <span class="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 text-xs font-medium">
@@ -327,7 +327,7 @@
                   <!-- Instansi Asal -->
                   <div>
                     <label for="input-instansi" class="block text-xs font-semibold text-slate-700 mb-1.5">
-                      Instansi / Perusahaan / Asal <span class="text-rose-500">*</span>
+                      Instansi / Alamat <span class="text-rose-500">*</span>
                     </label>
                     <div class="relative">
                       <i data-lucide="building-2" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
@@ -341,7 +341,7 @@
                   <!-- No WhatsApp -->
                   <div>
                     <label for="input-wa" class="block text-xs font-semibold text-slate-700 mb-1.5">
-                      No. WhatsApp / Telepon <span class="text-rose-500">*</span>
+                      No. WA / Telepon <span class="text-rose-500">*</span>
                     </label>
                     <div class="relative">
                       <i data-lucide="phone" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
@@ -359,11 +359,11 @@
                       <i data-lucide="tag" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
                       <select id="input-kategori" required
                         class="w-full pl-10 pr-8 py-2.5 text-[15px] bg-slate-50/70 border border-slate-200 rounded-xl text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-600 transition-all appearance-none">
-                        <option value="Tamu Umum / Klien">Tamu Umum / Klien</option>
-                        <option value="Mitra / Vendor">Mitra / Vendor</option>
-                        <option value="Kunjungan Dinas">Kunjungan Dinas / Instansi</option>
-                        <option value="Kurir / Logistik">Kurir / Logistik</option>
-                        <option value="Kandidat / Wawancara">Kandidat / Wawancara</option>
+                        <option value="Tamu Umum / Klien">Tamu Umum</option>
+                        <option value="Mitra / Vendor">Mitra/Vendor</option>
+                        <option value="Kunjungan Dinas">Kunjungan Dinas/Instansi</option>
+                        <option value="Kurir / Logistik">Kurir/Logistik</option>
+                        <option value="Kandidat / Wawancara">Diskusi/Wawancara</option>
                       </select>
                       <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"></i>
                     </div>
@@ -373,7 +373,7 @@
                 <!-- Tujuan Bertemu -->
                 <div>
                   <label for="input-tujuan" class="block text-xs font-semibold text-slate-700 mb-1.5">
-                    Tujuan Divisi / Bertemu Dengan <span class="text-rose-500">*</span>
+                    Tujuan Bertemu Dengan <span class="text-rose-500">*</span>
                   </label>
                   <div class="relative">
                     <i data-lucide="user-search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
@@ -450,7 +450,7 @@
                   <button type="submit" id="btn-submit-guest"
                     class="w-full py-3.5 px-5 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-[0.99] text-white font-display font-semibold text-sm sm:text-base shadow-lg shadow-blue-600/25 flex items-center justify-center gap-2 transition-all">
                     <i data-lucide="check-circle-2" class="w-5 h-5"></i>
-                    <span>Simpan Kunjungan & Buat Visitor Pass</span>
+                    <span>Simpan</span>
                   </button>
                 </div>
               </form>
@@ -751,7 +751,7 @@
           <i data-lucide="smartphone" class="w-4 h-4 text-white"></i>
         </div>
         <div class="min-w-0">
-          <p class="text-xs font-bold truncate">Install DigiGuest Pro</p>
+          <p class="text-xs font-bold truncate">Install Digitamu</p>
           <p class="text-[11px] text-slate-300 truncate">Akses cepat layar penuh & mode offline</p>
         </div>
       </div>
@@ -774,8 +774,8 @@
             <div class="flex items-center gap-2.5">
               <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-display font-bold text-sm">DG</div>
               <div>
-                <span class="text-[10px] font-bold uppercase tracking-widest text-blue-600 block">Digital Visitor Pass</span>
-                <h3 id="pass-institution-name" class="font-display font-bold text-slate-900 text-sm">PT Nusantara Digital Solusi</h3>
+                <span class="text-[10px] font-bold uppercase tracking-widest text-blue-600 block">DIGITAMU</span>
+                <h3 id="pass-institution-name" class="font-display font-bold text-slate-900 text-sm">Buku Tamu Digital Sekolah</h3>
               </div>
             </div>
             <span id="pass-status-badge" class="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
